@@ -59,7 +59,10 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
-
+@media (max-width: 388px){
+    .video-grid{
+        grid-template-columns: 1fr;
+    }
 
 .video-info-grid{
     display:grid;
